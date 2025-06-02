@@ -18,39 +18,12 @@
       }
     },
     {
-      "name": "BLURANiUM",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(BLURANiUM)$"
-      }
-    },
-    {
-      "name": "BMF",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(BMF)$"
-      }
-    },
-    {
       "name": "FraMeSToR",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
         "value": "^(FraMeSToR)$"
-      }
-    },
-    {
-      "name": "PmP",
-      "implementation": "ReleaseGroupSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "^(PmP)$"
       }
     }
   ]

@@ -1,0 +1,93 @@
+{
+  "trash_id": "4d74ac4c4db0b64bff6ce0cffb5a13bd",
+  "trash_scores": {
+    "default": 2000,
+    "anime-radarr": 1100,
+    "french-multi-vf": 50
+  },
+  "name": "Remux Tier 00",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Remux",
+      "implementation": "QualityModifierSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    },
+    {
+      "name": "3L",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(3L)$"
+      }
+    },
+    {
+      "name": "BiZKiT",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BiZKiT)$"
+      }
+    },
+    {
+      "name": "BLURANiUM",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BLURANiUM)$"
+      }
+    },
+    {
+      "name": "BMF",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BMF)$"
+      }
+    },
+    {
+      "name": "CiNEPHiLES",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(CiNEPHiLES)$"
+      }
+    },
+    {
+      "name": "PmP",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(PmP)$"
+      }
+    },
+    {
+      "name": "WiLDCAT",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(WiLDCAT)$"
+      }
+    },
+    {
+      "name": "ZQ",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ZQ)$"
+      }
+    }
+  ]
+} 

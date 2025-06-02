@@ -1,0 +1,48 @@
+{
+  "trash_id": "d6819cba26b1a6508138d25fb5e32293",
+  "trash_scores": {
+    "default": 1950,
+    "anime-sonarr": 1100,
+    "french-multi-vf": 50
+  },
+  "name": "Remux Tier 00",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Remux",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "BLURANiUM",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BLURANiUM)$"
+      }
+    },
+    {
+      "name": "BMF",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BMF)$"
+      }
+    },
+    {
+      "name": "PmP",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(PmP)$"
+      }
+    }
+  ]
+} 
